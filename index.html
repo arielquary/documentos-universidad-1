@@ -157,7 +157,7 @@
 
         .documents-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
             gap: 30px;
             margin-bottom: 40px;
         }
@@ -172,6 +172,7 @@
             position: relative;
             display: flex;
             flex-direction: column;
+            min-height: 550px;
         }
 
         .document-card:hover {
@@ -180,11 +181,15 @@
         }
 
         .document-header {
-            padding: 25px;
+            padding: 30px 25px;
             background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
             color: var(--white);
             position: relative;
             overflow: hidden;
+            min-height: 140px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
         .document-header::before {
@@ -242,6 +247,10 @@
             margin-bottom: 20px;
             line-height: 1.7;
             flex-grow: 1;
+            font-size: 0.95rem;
+            min-height: 180px;
+            display: flex;
+            align-items: flex-start;
         }
 
         .document-actions {
@@ -373,6 +382,20 @@
 
             .documents-grid {
                 grid-template-columns: 1fr;
+            }
+
+            .document-card {
+                min-height: auto;
+            }
+
+            .document-summary {
+                min-height: 120px;
+                font-size: 0.9rem;
+            }
+
+            .document-header {
+                min-height: auto;
+                padding: 25px 20px;
             }
 
             .footer-content {
@@ -578,9 +601,8 @@
         }
 
         // Función para formatear el resumen
-        function formatSummary(summary, maxLength = 200) {
-            if (summary.length <= maxLength) return summary;
-            return summary.substring(0, maxLength) + '...';
+        function formatSummary(summary) {
+            return summary;
         }
 
         // Función para crear una tarjeta de documento
