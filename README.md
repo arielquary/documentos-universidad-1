@@ -17,16 +17,16 @@ Centro de Documentos de Digital Innovation University - Una plataforma web moder
 documentos-universidad-1/
 ├── index.html                          # Página principal del sitio
 ├── README.md                           # Este archivo
-├── 0 - El Problema de la Industria en Mexico - Digital Innovation University.pdf
-├── 1 - Libro Basta de Historias.pdf
-├── 2 - Programa Digital Innovation Unversity.pdf
-├── 3 - Programa de Formación.pdf
-├── 4 - Horas - Programa Licenciatura en Sistemas de Computación.pdf
-├── 4.1 - Horas Detalle - Licenciatura en Sistemas de Computación Administrativa.pdf
-├── 4.2 - Horas - Modelo 7 horas diarias.png
-├── 5 - Publicidad DIU 2024 OnePage.pdf
-├── 6 - Finanzas - Plan Universidad Completo.xlsx
-└── 7 - Finanzas - Costos.jpeg
+├── 0-El-Problema-de-la-Industria-en-Mexico-Digital-Innovation-University.pdf
+├── 1-Libro-Basta-de-Historias.pdf
+├── 2-Programa-Digital-Innovation-University.pdf
+├── 3-Programa-de-Formacion.pdf
+├── 4-Horas-Programa-Licenciatura-en-Sistemas-de-Computacion.pdf
+├── 4.1-Horas-Detalle-Licenciatura-en-Sistemas-de-Computacion-Administrativa.pdf
+├── 4.2-Horas-Modelo-7-horas-diarias.png
+├── 5-Publicidad-DIU-2024-OnePage.pdf
+├── 6-Finanzas-Plan-Universidad-Completo.xlsx
+└── 7-Finanzas-Costos.jpeg
 ```
 
 ## 🚀 Cómo Usar
